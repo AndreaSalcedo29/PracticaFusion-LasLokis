@@ -26,7 +26,7 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre + " y hago �omi�omi cuando como");
+		System.out.println("Hola Soy" + this.nombre + " y soy del sexo " + this.genero);
 	}
 
 }
