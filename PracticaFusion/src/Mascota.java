@@ -1,5 +1,5 @@
 public class Mascota {
-	private String nombre;
+	private String nombre, color;
 
 	public Mascota(String nombre) {
 		this.nombre = nombre;
