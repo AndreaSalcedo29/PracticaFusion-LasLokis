@@ -13,9 +13,19 @@ public class Mascota {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+	
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre +  " y hago ñomiñomi cuando como");
+		System.out.println("Soy " + this.nombre +  " y te voy a contar algo o no y soy de color "+  this.color);
 	}
 
 }
