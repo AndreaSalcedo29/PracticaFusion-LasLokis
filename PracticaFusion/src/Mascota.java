@@ -15,7 +15,7 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre + " y hago ñomiñomi cuando como");
+		System.out.println("Soy " + this.nombre +  " y hago ñomiñomi cuando como");
 	}
 
 }
