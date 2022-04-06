@@ -1,9 +1,12 @@
 public class Mascota {
+
 	private String nombre;
+	private boolean genero;
 
-	public Mascota(String nombre) {
+	public Mascota(String nombre, boolean genero) {
+		super();
 		this.nombre = nombre;
-
+		this.genero = genero;
 	}
 
 	public String getNombre() {
@@ -14,8 +17,16 @@ public class Mascota {
 		this.nombre = nombre;
 	}
 
+	public boolean isGenero() {
+		return genero;
+	}
+
+	public void setGenero(boolean genero) {
+		this.genero = genero;
+	}
+
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre +  " y hago ñomiñomi cuando como");
+		System.out.println("Soy " + this.nombre + " y hago ï¿½omiï¿½omi cuando como");
 	}
 
 }
